@@ -1,8 +1,27 @@
-# cs143
+# 00: The Missing Semester of Your CS Education
 
-https://web.stanford.edu/class/cs143/
+- field: general
+- link: https://missing.csail.mit.edu/
 
-online course https://learning.edx.org/
-- user haosun01 or shqking@yeah.net
+# 01: 
 
-# TODO
+# CS143
+
+- field: static compiler
+- link: https://web.stanford.edu/class/cs143/
+- online course link: edx
+  - link: https://learning.edx.org/
+  - user `haosun01` or `shqking@yeah.net`
+
+# more
+
+os
+architecture,cpu,soc
+pl
+formal method
+gc
+network
+program analysis
+security
+gdb
+
