@@ -33,7 +33,7 @@ fg          resume a suspended process in the foreground
 
 - note-1: use `echo $SHELL` to check which shell you're using.
 - note-9: use `chmod 764 semester` to add `execute` premission.
-- note0-10: use `./semester | grep -i "last-modified" | cut --delimiter=' ' -f 2-7`
+- note-10: use `./semester | grep -i "last-modified" | cut --delimiter=' ' -f 2-7`
 - note-11: `/sys/class/thermal` is empty in my local Ubuntu-22 machine. Ignore
 this.
 
