@@ -39,43 +39,51 @@ this.
 
 # lec 2
 
+Interesting shell specical variables:
+
+```sh
+!! # the last command
+$_ # the last arg of the last command
+   # esc + .
+```
+
+## test
+
+check file types and compare values
+
+`[` is a synonym for `test` in almost all shell.
+`[` is a program.
+
+```sh
+$ which [
+/bin/[
+```
+
+`[[` is a new and improved version. It's only a keyword rather than a program.
+
+better to use `[[` rather than `[`. See http://mywiki.wooledge.org/BashFAQ/031
+
+## shell globbing
+
+https://tldp.org/LDP/abs/html/globbingref.html
+
 ## shebang
 
 better to use `env`
 
-`#!/usr/bin/bash`
-
-## cut command
-
-
-how to run shell on command?
-not in script file...
-
-## difference between `'` and `"` delimiter
-
-```sh
-foo=bar
-echo "$foo"
-# prints bar
-echo '$foo'
-# prints $foo
-```
-
-ref: https://tldp.org/LDP/abs/html/special-chars.html
+`#!/usr/bin/bash` --> `#!/usr/bin/env bash`
 
 ## tldr pages
 
+A brief output than `man`.
 
-## fd-find
-macos
-/opt/homebrew/bin/fd
-ubuntu
-ln -s $(which fdfind) ~/.local/bin/fd
-how about fedora???
+## find with exec
 
-## locate
+```sh
+# Delete all files with .tmp extension
+find . -name '*.tmp' -exec rm {} \;
+```
 
-## ripgrep
+## useful tools
 
-## autojump
-
+`fd-find, riggrep, autojump`
