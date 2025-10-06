@@ -16,12 +16,18 @@
 # more
 
 os
+- jyy
+- mit
 architecture,cpu,soc
 pl
+- Structure and Interpretation of Computer Programs
+https://sicp.pascal-lab.net/2023/
 formal method
 gc
 network
 program analysis
+- nju
 security
 gdb
-
+llm
+- cs336
