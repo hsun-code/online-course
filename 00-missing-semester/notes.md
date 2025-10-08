@@ -87,3 +87,9 @@ find . -name '*.tmp' -exec rm {} \;
 ## useful tools
 
 `fd-find, riggrep, autojump`
+
+## Exercises
+
+- note-2: See `marco.sh`
+- note-3: run `bash 3.sh`
+- note-4: use `find ./4-mock/ -type f -name "*.html" -print0 | xargs -0 zip target.zip`
