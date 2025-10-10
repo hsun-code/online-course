@@ -3,7 +3,10 @@
 - field: general
 - link: https://missing.csail.mit.edu/
 
-# 01: 
+# 01: jyy-os
+
+- field: os
+- link: https://jyywiki.cn/OS/2025/
 
 # CS143
 
@@ -16,18 +19,26 @@
 # more
 
 os
-- jyy
 - mit
+
 architecture,cpu,soc
+
 pl
 - Structure and Interpretation of Computer Programs
 https://sicp.pascal-lab.net/2023/
+
 formal method
+
 gc
+
 network
+
 program analysis
 - nju
+
 security
+
 gdb
+
 llm
 - cs336
