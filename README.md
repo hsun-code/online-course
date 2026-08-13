@@ -3,7 +3,7 @@
 - Field: General
 - Link: https://missing.csail.mit.edu/
 
-# 02: The little book of C
+# 01: The little book of C
 
 - Field: Language
 - Link: https://jyywiki.cn/OS/2025/
