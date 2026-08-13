@@ -1,12 +1,19 @@
 # 00: The Missing Semester of Your CS Education
 
-- field: general
-- link: https://missing.csail.mit.edu/
+- Field: General
+- Link: https://missing.csail.mit.edu/
 
-# 01: jyy-os
+# 02: The little book of C
 
-- field: os
-- link: https://jyywiki.cn/OS/2025/
+- Field: Language
+- Link: https://jyywiki.cn/OS/2025/
+- Time: 2026-07 ~ 2026-08
+
+# 02: jyy-os
+
+- Field: OS
+- Link: https://jyywiki.cn/OS/2025/
+- Time: TODO
 
 # CS143
 
